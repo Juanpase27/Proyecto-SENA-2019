@@ -1,0 +1,171 @@
+#pagina {
+  background: linear-gradient(to right, #cd1a26, #00cd1b 30% 60%, #cdbb1a);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+  display: inline;
+}
+
+#pagina_principal {
+  background-image: url("../Imagenes/fondo_sala_02.JPEG");
+  background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  display: inline;
+}
+
+#escudo {
+  background-image:url("../Imagenes/Logo.PNG");
+  position: relative;
+  left: 1%;
+  min-width: 127px;
+  max-width: 129px;
+  min-height: 128px;
+  max-height: 130px;
+  cursor: pointer;
+}
+
+#titulo{
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, sans-serif;
+	font-size: 150%;
+	font-weight: bold;
+  max-width: 80%;
+  color: #ffffff;
+  position: absolute;
+  bottom: 85%;
+  left: 10%;
+}
+
+label {
+	color: white;
+}
+
+h2{
+	color: white;
+}
+.box {
+  position: absolute;
+  top: 580px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(0, 0, 0, .8);
+  box-sizing: border-box;
+  border-radius: 7%;
+}
+.box .inputBox {
+	position: relative;
+}
+
+.box .inputBox input, #seleccione{
+	transition: 1s;
+	width: 100%;
+	padding: 10px 0;
+	margin: 0;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid white;
+	outline: none;
+	background: transparent;
+}
+
+.box .inputBox input:focus {
+	border-bottom: 1px solid rgb(43, 82, 37);
+	transition: 1s;
+}
+
+.box .inputBox label {
+	position: absolute;
+	left:0;
+	top:0;
+	padding: 10px 0;
+	font-size: 20px;
+	color: #fff;
+	pointer-events: none;
+	transition: 1s;
+}
+
+.box .inputBox input:focus ~ label, .box .inputBox input:valid ~ label {
+	top:-24px;
+	left: -2px;
+	color: rgba(50, 152, 182, 0.86);
+	font-size: 18px;
+}
+
+form{
+	width:500px;
+	border: none;
+	margin:auto;
+	padding:20px;
+}
+label{
+	font-size: 18px;
+}
+textarea{
+	resize: none;
+	min-height:100px;
+	max-height:200px;
+	background: rgba(231, 231, 231, 0.86);
+	font-size: 20px;
+	border-radius: 10px;
+	border: none;
+	margin-right: 30px;
+	margin-top: 6px;
+	margin-bottom:10px;
+	padding:10px;
+	width:100%;
+	box-sizing:border-box;
+}
+/*
+input[type="button"]{
+	margin-right: 30px;
+	margin-top: 6px;
+	margin-bottom:10px;
+	padding:10px;
+
+	box-sizing:border-box;
+	border:none;
+}*/
+select{
+	border-radius: 20px;
+	border-color: white;
+	color: white;
+	background: #211e1b;
+}
+select:focus, textarea:focus{
+	border:none;
+}
+
+/*.eleccion{
+	width:100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+	transition: 1s;
+	border: none;
+	background: rgb(254, 238, 43);
+}*/
+
+input[type="button"], input[type="submit"]{
+	width:100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+	transition: 1s;
+	border: none;
+	background: rgb(254, 238, 43);
+}
+input[type="button"]:hover, input[type="submit"]:hover{
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+	transition: 1s;
+	border: none;
+	background: rgb(14, 31, 52);
+	cursor:pointer;
+}

@@ -1,0 +1,154 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background-size: cover;
+}
+
+.titulo1 {
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, sans-serif;
+	font-size: 32px;
+	color:white;
+}
+
+form {
+  width: 400px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+input.casillas {
+  font-size: 20px;
+  color: rgba(184, 184, 184, 0.9);
+  transition: 1s;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: transparent;
+}
+::placeholder {
+  color: rgb(99, 175, 182);
+}
+
+input.casillas:focus {
+  transition: 1s;
+  border-bottom: 1px solid rgba(37, 28, 149, 0.88);
+  border-left: transparent;
+  border-right: transparent;
+  background: transparent;
+}
+
+input#Ingresar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  width: 40%;
+  transition: 1s;
+  border: none;
+  background: rgb(254, 238, 43);
+}
+
+input#Ingresar:hover {
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  transition: 1s;
+  border: none;
+  background: rgb(14, 31, 52);
+}
+
+/*body{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background: url("Proyecto html.PNG");
+  background-size: cover;
+}
+
+.titulo1 {
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, sans-serif;
+	font-size: 32px;
+}
+
+.box {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  padding: 40px;
+  background: rgba(0, 0, 0, .8);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.box h2 {
+  margin:0 0 30px;
+  padding:0;
+  color: #fff;
+  text-align: center;
+}
+
+.box .inputBox {
+  position: relative;
+}
+
+.box .inputBox input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  background: transparent;
+}
+
+.box .inputBox input:focus {
+  border-bottom: 1px solid rgb(43, 82, 37);
+  transition: 1s;
+}
+
+.box .inputBox label {
+  position: absolute;
+  left:0;
+  top:0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 1s;
+}
+
+.box .inputBox input:focus ~ label, .box .inputBox input:valid ~ label {
+  top:-20px;
+  left: -2px;
+  color: rgba(50, 152, 182, 0.86);
+  font-size: 12px;
+}
+
+input[type="Submit"] {
+	font-size: 20px;
+	text-decoration: none;
+	display: inline-block;
+	background: rgba(0, 0, 0, .8);
+	color: rgb(255, 255, 255);
+	padding: 10px 20px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: none;
+}
+
+input[type="Submit"]:hover {
+  transition: 0.5s;
+	background:rgba(50, 152, 182, 0.86);
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: none;
+}
+*/
